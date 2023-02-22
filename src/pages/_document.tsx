@@ -11,3 +11,7 @@ export default function Document() {
     </Html>
   );
 }
+
+const Content: React.FC = () => {
+  const { data: sessionData } = useSession();
+};
